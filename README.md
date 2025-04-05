@@ -3,7 +3,7 @@
 
 2. Download the Lorekeeper executable file.
 
-      2a. Run the jar file in its own folder, it will create a Lorekeeper.config file. 
+      2a. Run the executable file in its own folder, it will create a Lorekeeper.config file. 
       
       2b. Set your configurations.
       
