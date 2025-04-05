@@ -1,0 +1,17 @@
+[package]
+name = "lorekeeper-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serenity = "0.12"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+surrealdb = "2.2.1"
+serde = { version = "1.0.219", features = ["derive"] }
+
+[profile.release]
+lto = true
+strip = true
+opt-level = 3
+panic = 'abort'
+codegen-units = 1
